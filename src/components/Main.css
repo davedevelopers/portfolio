@@ -1,0 +1,37 @@
+.center {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 9em;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+.header-bar {
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+.header-bar:before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 3px;
+  bottom: 0;
+  left: 12%;
+  background: #c21a44;
+}
+.about-image {
+  margin-bottom: 2em;
+}
+/* .hero {
+  display: block;
+  box-sizing: border-box;
+  height: 500px;
+  background-color: #ffffff;
+  clip-path: ellipse(201% 100% at -16.44% 0%);
+} */
