@@ -30,6 +30,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1em",
     color: "#fff",
     borderColor: "#fff",
+    textDecoration: "none",
   },
 }));
 
@@ -67,7 +68,9 @@ function Main() {
           transition={{ type: "spring", stiffness: 300 }}
         >
           <Button variant="outlined" type="large" className={classes.button}>
-            View My Work
+            <a href="#project" className="button-work">
+              View My Work
+            </a>
           </Button>
         </motion.span>
       </motion.div>

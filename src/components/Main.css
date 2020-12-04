@@ -28,6 +28,19 @@
 .about-image {
   margin-bottom: 2em;
 }
+.button-work {
+  text-decoration: none;
+  color: #fff;
+}
+.button-contact {
+  color: #1b242f;
+  padding: 15px 30px;
+  font-size: 1.6em;
+  border: 3px solid #e31b6d;
+  border-radius: 5px;
+  margin: 30px 20px;
+  cursor: pointer;
+}
 /* .hero {
   display: block;
   box-sizing: border-box;

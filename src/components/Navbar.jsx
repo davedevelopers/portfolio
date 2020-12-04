@@ -7,7 +7,6 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import About from "./About";
-import { motion } from "framer-motion";
 import Project from "./Project";
 import Contact from "./Contact";
 
@@ -63,7 +62,7 @@ export default function SimpleTabs() {
   };
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="project">
       <AppBar position="static">
         <Tabs
           value={value}

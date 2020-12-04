@@ -1,8 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Paper } from "@material-ui/core";
-import { useTheme } from "@material-ui/core/styles";
 import { motion } from "framer-motion";
+import about_image from "./images/about.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -67,19 +67,13 @@ function About() {
         </div>
         <div className="about-image">
           <motion.img
-            src="/images/about.jpg"
+            src={about_image}
             className={classes.image}
             alt="about_image"
             whileHover={{ scale: 1.3 }}
             transition={{ duration: 0.2 }}
           />
         </div>
-      </div>
-      <div className={classes.root}>
-        <Typography variant="h5">Gallery</Typography>
-      </div>
-      <div className={classes.root}>
-        <div></div>
       </div>
     </React.Fragment>
   );
